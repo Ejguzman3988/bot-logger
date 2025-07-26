@@ -28,7 +28,7 @@
   <p align="center">
     Feed your logs to Bot Logger and bring them to life.
     <br />
-    <!-- <a href="https://github.com/ejguzman3988/bot_logger"><strong>Explore the docs »</strong></a> -->
+    <!-- <a href="https://github.com/ejguzman3988/bot-logger"><strong>Explore the docs »</strong></a> -->
     <!-- <br /> -->
     <a href="https://github.com/Ejguzman3988/bot-logger">View Demo</a>
     &middot;
@@ -107,7 +107,7 @@ This is an example of how to list things you need to use the software and how to
 2. Clone the repo
 
    ```sh
-   git clone https://github.com/ejguzman3988/bot_logger.git
+   git clone https://github.com/ejguzman3988/bot-logger.git
    ```
 
 3. Install NPM packages
@@ -125,7 +125,7 @@ This is an example of how to list things you need to use the software and how to
 5. Change git remote url to avoid accidental pushes to base project
 
    ```sh
-   git remote set-url origin ejguzman3988/bot_logger
+   git remote set-url origin ejguzman3988/bot-logger
    git remote -v # confirm the changes
    ```
 
@@ -148,7 +148,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 * [ ] Feature 3
   * [ ] Nested Feature
 
-See the [open issues](https://github.com/ejguzman3988/bot_logger/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/ejguzman3988/bot-logger/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,8 +170,8 @@ Don't forget to give the project a star! Thanks again!
 
 ### Top contributors
 
-<a href="https://github.com/ejguzman3988/bot_logger/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ejguzman3988/bot_logger" alt="contrib.rocks image" />
+<a href="https://github.com/ejguzman3988/bot-logger/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ejguzman3988/bot-logger" alt="contrib.rocks image" />
 </a>
 
 <!-- LICENSE -->
@@ -186,7 +186,7 @@ Distributed under the project_license. See `LICENSE.txt` for more information.
 
 Your Name - [@EriDotDev](https://twitter.com/EriDotDev) - <email@email_client.com>
 
-Project Link: [https://github.com/ejguzman3988/bot_logger](https://github.com/ejguzman3988/bot_logger)
+Project Link: [https://github.com/ejguzman3988/bot-logger](https://github.com/ejguzman3988/bot_logger)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -201,16 +201,16 @@ Project Link: [https://github.com/ejguzman3988/bot_logger](https://github.com/ej
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/ejguzman3988/bot_logger.svg?style=for-the-badge
-[contributors-url]: https://github.com/ejguzman3988/bot_logger/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ejguzman3988/bot_logger.svg?style=for-the-badge
-[forks-url]: https://github.com/ejguzman3988/bot_logger/network/members
-[stars-shield]: https://img.shields.io/github/stars/ejguzman3988/bot_logger.svg?style=for-the-badge
-[stars-url]: https://github.com/ejguzman3988/bot_logger/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ejguzman3988/bot_logger.svg?style=for-the-badge
-[issues-url]: https://github.com/ejguzman3988/bot_logger/issues
-[license-shield]: https://img.shields.io/github/license/ejguzman3988/bot_logger.svg?style=for-the-badge
-[license-url]: https://github.com/ejguzman3988/bot_logger/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/ejguzman3988/bot-logger.svg?style=for-the-badge
+[contributors-url]: https://github.com/ejguzman3988/bot-logger/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ejguzman3988/bot-logger.svg?style=for-the-badge
+[forks-url]: https://github.com/ejguzman3988/bot-logger/network/members
+[stars-shield]: https://img.shields.io/github/stars/ejguzman3988/bot-logger.svg?style=for-the-badge
+[stars-url]: https://github.com/ejguzman3988/bot-logger/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ejguzman3988/bot-logger.svg?style=for-the-badge
+[issues-url]: https://github.com/ejguzman3988/bot-logger/issues
+[license-shield]: https://img.shields.io/github/license/ejguzman3988/bot-logger.svg?style=for-the-badge
+[license-url]: https://github.com/ejguzman3988/bot-logger/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/eriberto-guzman
 [product-screenshot]: images/screenshot.png
