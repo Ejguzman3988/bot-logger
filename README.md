@@ -1,11 +1,26 @@
-[![Stargazers][stars-shield]][https://github.com/Ejguzman3988/bot-logger/stargazers]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/eriberto-guzman/]
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![project_license][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/Ejguzman3988/bot-logger">
-    <img src="images/robo.png" alt="Robo Logo" width="80" height="80">
+  <picture>
+    <source srcset="images/robo-dark.png" media="(prefers-color-scheme: dark)">
+    <img src="images/robo-light.png" alt="Robo Logo" width="80" height="80">
+  </picture>
   </a>
 
 <h3 align="center">Bot Logger</h3>
@@ -13,7 +28,7 @@
   <p align="center">
     Feed your logs to Bot Logger and bring them to life.
     <br />
-    <!-- <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a> -->
+    <!-- <a href="https://github.com/ejguzman3988/bot_logger"><strong>Explore the docs »</strong></a> -->
     <!-- <br /> -->
     <a href="https://github.com/Ejguzman3988/bot-logger">View Demo</a>
     &middot;
@@ -92,7 +107,7 @@ This is an example of how to list things you need to use the software and how to
 2. Clone the repo
 
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/ejguzman3988/bot_logger.git
    ```
 
 3. Install NPM packages
@@ -110,7 +125,7 @@ This is an example of how to list things you need to use the software and how to
 5. Change git remote url to avoid accidental pushes to base project
 
    ```sh
-   git remote set-url origin github_username/repo_name
+   git remote set-url origin ejguzman3988/bot_logger
    git remote -v # confirm the changes
    ```
 
@@ -133,7 +148,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 * [ ] Feature 3
   * [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/ejguzman3988/bot_logger/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,8 +170,8 @@ Don't forget to give the project a star! Thanks again!
 
 ### Top contributors
 
-<a href="https://github.com/github_username/repo_name/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=github_username/repo_name" alt="contrib.rocks image" />
+<a href="https://github.com/ejguzman3988/bot_logger/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ejguzman3988/bot_logger" alt="contrib.rocks image" />
 </a>
 
 <!-- LICENSE -->
@@ -169,9 +184,9 @@ Distributed under the project_license. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - <email@email_client.com>
+Your Name - [@EriDotDev](https://twitter.com/EriDotDev) - <email@email_client.com>
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/ejguzman3988/bot_logger](https://github.com/ejguzman3988/bot_logger)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,8 +201,18 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/ejguzman3988/bot_logger.svg?style=for-the-badge
+[contributors-url]: https://github.com/ejguzman3988/bot_logger/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ejguzman3988/bot_logger.svg?style=for-the-badge
+[forks-url]: https://github.com/ejguzman3988/bot_logger/network/members
+[stars-shield]: https://img.shields.io/github/stars/ejguzman3988/bot_logger.svg?style=for-the-badge
+[stars-url]: https://github.com/ejguzman3988/bot_logger/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ejguzman3988/bot_logger.svg?style=for-the-badge
+[issues-url]: https://github.com/ejguzman3988/bot_logger/issues
+[license-shield]: https://img.shields.io/github/license/ejguzman3988/bot_logger.svg?style=for-the-badge
+[license-url]: https://github.com/ejguzman3988/bot_logger/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/eriberto-guzman
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
