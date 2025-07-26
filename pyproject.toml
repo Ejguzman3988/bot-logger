@@ -1,0 +1,19 @@
+[project]
+name = "bot-logger"
+version = "0.1.0"
+description = "A terminal bot companion that lives in your tmux session."
+authors = [{ name = "Eriberto Guzman", email = "eri.md.4+bot-logger@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "rich>=14.1.0",
+    "rich-pixels>=3.0.1",
+    "textual>=5.0.1",
+    "textual-dev>=1.7.0",
+]
+
+[project.scripts]
+# This allows you to run "bot-companion" as a command after installation
+# but we will use a direct script for the MVP to handle the tmux logic.
+# run-bot = "bot_companion.tui:main"
+
