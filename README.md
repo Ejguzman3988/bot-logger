@@ -186,7 +186,7 @@ Distributed under the project_license. See `LICENSE.txt` for more information.
 
 Your Name - [@EriDotDev](https://twitter.com/EriDotDev) - <email@email_client.com>
 
-Project Link: [https://github.com/ejguzman3988/bot-logger](https://github.com/ejguzman3988/bot_logger)
+Project Link: [https://github.com/ejguzman3988/bot-logger](https://github.com/ejguzman3988/bot-logger)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
