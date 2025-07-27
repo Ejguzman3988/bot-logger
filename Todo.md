@@ -14,7 +14,8 @@
 
 ---
 
-- [ ] Use rich pixels to build a bot
+- [x] Create the bot image
+- [~] Use rich pixels to build a bot
 - [ ] Animate the bot
 - [ ] Tie the bot animation to command
 - [ ] Scaffold the rest of the animations
@@ -31,6 +32,7 @@
 
 - [ ] Better name
 - [ ] Build script for YT Video
+- [ ] Update README
 - [ ] Content plan?
 
 ---
@@ -88,6 +90,7 @@ Widgets actions - tell time
 
 Functionality:
 
+- Tmux integration
 - `<actions>` list for loggers
   - TRACE
   - DEBUG

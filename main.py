@@ -1,11 +1,10 @@
-import sys
-import shutil
+from tui.textual import AvatarContainer
 
-"""Check if tmux is installed and available inthe system's Path. """
-def is_tmux_installed():
-    return shutil.which("tmux")
 
 def main():
+    app = AvatarContainer()
+    app.run()
+    print("https://textual.textualize.io/how-to/render-and-compose/")
 
 
 if __name__ == "__main__":
