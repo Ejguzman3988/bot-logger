@@ -1,46 +1,4 @@
-Layout {
-  layout: horizontal;
-  height: 1fr;
-  width: 1fr;
-  background: black;
-  overflow-y: hidden;
-  overflow-x: scroll;
-}
-
-StopWatch{
-  layout: horizontal;
-  width: auto;
-  height: auto;
-}
-
-StartButton {
-    width: auto;
-    height: auto;
-    border: none;
-    content-align: center middle;
-}
-
-StartButton .started{
-  background: red;
-}
-
-
-StartButton .stoped{
-  background: green;
-}
-
-Timer{
-    width: auto;
-    height: auto;
-    content-align: center middle;
-    margin: 1;
-    line-pad: 1;
-    border-top: tall $surface-lighten-1;
-    border-bottom: tall $surface-darken-1;
-    padding-left: 2;
-    padding-right: 2;
-}
-
-Button{
-  margin: 1;
+ImageWidget{
+  content-align: center middle;
+  offset-x: 0;
 }
