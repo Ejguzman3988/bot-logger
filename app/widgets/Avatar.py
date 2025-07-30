@@ -20,7 +20,7 @@ class Avatar(Static):
 
     def on_mount(self):
         self.timer = self.set_timer(4, lambda: self.set_animation_name("idle"))
-        self.interval = self.set_interval(0.1, self.advance_frame)
+        self.interval = self.set_interval(0.15, self.advance_frame)
         self.frames = load_avatar("robo", (16, 16))
 
         self._watcher_task = asyncio.create_task(self._watch_state_file())
