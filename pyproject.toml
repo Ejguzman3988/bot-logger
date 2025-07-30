@@ -10,6 +10,7 @@ dependencies = [
     "rich-pixels>=3.0.1",
     "textual>=5.0.1",
     "textual-dev>=1.7.0",
+    "watchfiles>=1.1.0",
 ]
 
 [project.scripts]

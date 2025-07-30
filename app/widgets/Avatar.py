@@ -1,3 +1,8 @@
+import json
+import asyncio
+from pathlib import Path
+
+from watchfiles import awatch
 from textual.reactive import reactive
 from textual.widgets import Static
 
@@ -5,6 +10,7 @@ from app.utils.frame_loader import load_avatar
 
 
 class Avatar(Static):
+    STATE_FILE = Path("state.json")
     AVATAR_NAME = "robo"
 
     frames = {}
@@ -14,8 +20,22 @@ class Avatar(Static):
 
     def on_mount(self):
         self.timer = self.set_timer(4, lambda: self.set_animation_name("idle"))
-        self.interval = self.set_interval(2 / 12, self.advance_frame)
+        self.interval = self.set_interval(0.1, self.advance_frame)
         self.frames = load_avatar("robo", (16, 16))
+
+        self._watcher_task = asyncio.create_task(self._watch_state_file())
+
+    async def _watch_state_file(self):
+        """Run in the background, fire on every change to STATE_FILE"""
+        async for changes in awatch(self.STATE_FILE):
+            try:
+                data = json.loads(self.STATE_FILE.read_text())
+            except Exception:
+                continue
+            if (ani := data.get("ani")) and ani != self.animation_name:
+                self.animation_name = ani
+            if (dr := data.get("dir")) and dr != self.direction:
+                self.direction = dr
 
     # def on_resize(self) -> None:
     #     """Called when the widget is resized. Load frames here."""
@@ -25,6 +45,7 @@ class Avatar(Static):
     #     self.frames = load_avatar("robo", (16, 16))
 
     def on_unmount(self):
+        self._watcher_task.cancel()
         self.interval.stop()
         self.timer.stop()
 
