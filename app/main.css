@@ -1,6 +1,11 @@
+Center{
+  width: 100%;
+  height: 100%;
+  align: center middle;
+}
 Avatar {
-    border: red solid;
-    width: 50%;
-    height: 50%;
-    align: center middle;
+  align: center middle;
+  width: 32;
+  height: 16;
+  offset_x: 0%;
 }

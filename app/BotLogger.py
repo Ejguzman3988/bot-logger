@@ -1,7 +1,5 @@
-from typing import Container
 from textual.app import App
-from textual.widgets import Static
-
+from textual.containers import Center
 from app.widgets.Avatar import Avatar
 
 
@@ -11,7 +9,8 @@ class MainApp(App):
     CSS_PATH = "main.css"
 
     def compose(self):
-        yield Avatar()
+        with Center():
+            yield Avatar()
 
     # def on_mount(self):
     #     yield Container()
